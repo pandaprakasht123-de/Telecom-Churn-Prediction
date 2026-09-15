@@ -3,7 +3,7 @@ from pyspark.sql.functions import current_timestamp
 
 # COMMAND ----------
 
-df = spark.read.csv('sttm_source_data.csv', header= True)
+df = spark.read.csv('/Volumes/churn_catalog/bronze/churn_volume/sttm_source_data.csv', header= True)
 
 # COMMAND ----------
 
